@@ -11,3 +11,21 @@ This is the last assignment for this week. In this assignment, you'll configure 
 1. A GitHub repository with a `.devcontainer` directory with the configuration files for your Codespace.
 2. A `README.md` file that describes the configuration and how to use it.
 3. The repository has to be fully functional with Codespaces and you should be able to run it from the browser.
+
+# Instructions above; my work below:
+
+### Experiment Notes  
+1. Search: `>dev containers: Add dev container configurations files`  
+2. Choose: `new ...`  
+3. Choose: `rust...`
+4. Choose: `bullseye(default)`
+5. After above steps, a new folder with a json file `.devcontainer/devcontainer.json` is created in the current path.  
+6. Then, there appears a window for rebuilding. If not, you can search `>rebuild` instead.  
+7. After that, rust and cargo are set up automatically in the environment.  
+8. Run `cargo init` or `cargo new project_name` to create binary packages for rust. This step creates `Cargo.toml` and `src/main.rs`.
+9. The differrence between `cargo.toml` and `cargo.lock`:
+    - `cargo.toml`= the dependencies you request (ranges);
+    - `cargo.lock`= the exact resolved versions currently used.  
+11. Add extensions: On the page of an extension → Click the `Settings` icon → choose `Add to Dev Container Configuration` option.
+12. Some extensions don't provide that option, but a `sync this extension` option instead. If needed, copy the extension ID and paste it into `devcontainer.json` under `customizations.vscode.extensions`.
+13. After editing `devcontainer.json`, the configuration file, don't forget to rebuild.
