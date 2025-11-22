@@ -14,7 +14,24 @@ This is the last assignment for this week. In this assignment, you'll configure 
 
 # Instructions above; my work below:
 
-### Experiment Notes  
+### About
+This is a Rust template project designed for learning and development.  
+It includes:
+- Rust programming language and Cargo package manager
+- VS Code extensions: Rust Analyzer and GitHub Copilot
+- A pre-configured dev container for Codespaces to simplify setup
+
+The project provides a ready-to-use environment, so you can start coding in Rust immediately without manual configuration.
+
+### Usage
+1. Open the project in Codespaces; the dev container will automatically set up the environment.
+2. If you edit the devcontainer configuration file, rebuild the container afterwards to apply the changes.
+3. Run `rustc --version` to verify that Rust is installed correctly.
+4. Run `cargo --version` to verify that Cargo is installed correctly.
+5. Run `cargo build` or `cargo run` to build and/or run the template, confirming that it works as expected.
+6. Start adding your own Rust code to `src/main.rs` to develop your project further.
+
+### Experiment Notes for creating this project
 1. Search: `>dev containers: Add dev container configurations files`  
 2. Choose: `new ...`  
 3. Choose: `rust...`
